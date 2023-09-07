@@ -20,10 +20,6 @@ body {
     font-size: 48px;
 }
 
-.header h1 .seo {
-    color: #d9dcd6;
-}
-
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -83,22 +79,6 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-sections {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-sections h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-sections img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
 .main-content {
     margin-bottom: 20px;
     padding: 50px;
@@ -115,6 +95,22 @@ p {
 .main-content h2 {
     margin-bottom: 20px;
     font-size: 36px;
+}
+
+.benefit-sections {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-sections h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-sections img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
 }
 
 .footer {
