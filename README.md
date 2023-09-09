@@ -9,8 +9,9 @@ I learned the best practices on how to correctly structure a HTML and CSS file. 
 
 ### Website screenshots:
 
-![Alt text](image-3.png)
+<img src="assets\images\image-3.png">
 
-![Alt text](image-4.png)
+<img src="assets\images\image-4.png">
 
-
+### Link to deployed website
+https://lrubio013.github.io/Horiseon-accessibility-improvements/
