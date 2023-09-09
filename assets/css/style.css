@@ -1,48 +1,48 @@
-* {
+* { /*Adds 0 pading, margin, and border-box sizing to ur whole website */
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-body {
+body { /*Makes the background of our website white */
     background-color: #d9dcd6;
 }
 
-.header {
+.header { /*Styles our header and nav bar */
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-.header h1 {
+.header h1 { /*Allows the title of our website to display next to our nav links */
     display: inline-block;
     font-size: 48px;
 }
 
-.header nav {
+.header nav { /*Gives styling to our nav bar*/
     padding-top: 15px;
     margin-right: 20px;
     float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
 
-.header nav ul li {
+.header nav ul li { /*Allows our nav links to sit next to each other and moves them to the right of the website*/
     display: inline-block;
     margin-left: 25px;
     list-style-type: none;
 }
 
-a {
+a { /*Styles the text of the nav bar*/
     color: #ffffff;
     text-decoration: none;
 }
 
-p {
+p { /*Sets the text size of our main and aside to 16px*/
     font-size: 16px;
 }
-
+/* Allows our main image to be our cover for the website*/
 .hero {
     height: 800px;
     width: 100%;
@@ -52,23 +52,23 @@ p {
     background-position: center;
 }
 
-.float-left {
+.float-left { /*Ensures that 2 of the images used on our main text sit to the left of the text*/
     float: left;
     margin-right: 25px;
 }
 
-.float-right {
+.float-right { /*Ensures that one of the images used in our main part of the html sits to the right of the text*/
     float: right;
     margin-left: 25px;
 }
 
-.content {
+.content { /*Tells the text in the main part of the website how to act with each other */
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-.benefits {
+.benefits { /*Styles the text in our aside*/
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -79,7 +79,7 @@ p {
     background-color: #2589bd;
 }
 
-.main-content {
+.main-content { /*Styles the text of the main part of the website*/
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -88,38 +88,38 @@ p {
     color: #ffffff;
 }
 
-.main-content img {
+.main-content img { /*Sets the size of the images we used on the main part of the website to 200px*/ 
     max-height: 200px;
 }
 
-.main-content h2 {
+.main-content h2 { /*Gives margin area and size of the text to our headings in main content */
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.benefit-sections {
+.benefit-sections { /*Styles the sections in our aside*/
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-sections h3 {
+.benefit-sections h3 { /*Allows the headings in our aside to behave differently from the rest of the text */
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-sections img {
+.benefit-sections img { /*Styles the images we used for our aside*/
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.footer {
+.footer { /*Gives the text in our footing styling*/
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+.footer h2 { /*Sets the text of our footer to 20px*/ 
     font-size: 20px;
 }
